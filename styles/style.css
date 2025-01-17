@@ -227,6 +227,25 @@
   filter: grayscale(100%);
 }
 
+/* Footer Area */
+.footer {
+  width: 1440px;
+  height: 100px;
+  background: rgba(255, 244, 231, 1);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 130px;
+}
+
+.footer-heading {
+  font-size: 1.25rem;
+  color: #424242;
+}
+
 /* Banner Responsiveness */
 @media screen and (max-width: 576px) {
   .brand {
@@ -277,6 +296,11 @@
     margin-top: 20px;
     margin-left: 10px;
   }
+
+  .footer {
+    width: 100%;
+    margin-top: 60px;
+  }
 }
 
 /* For Medium Device */
@@ -311,5 +335,10 @@
   #experience-badge {
     margin-top: 20px;
     margin-left: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    margin-top: 60px;
   }
 }
